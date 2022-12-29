@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.lamps {
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    width: 100%;
+    right: 15;
+    text-align: right;
+}
+
+img.mubarak {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+
+
+h2 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+    text-align: center;
+}
+
+header a,
+a:visited {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+@keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -100px 50px;
+    }
+}
+
+
+@keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 10000px 0;
+    }
+}
+
+.stars,
+.twinkling,
+.clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 10%;
+    height: 10%;
+    display: block;
+}
+
+.stars {
+    background: transparent url(../images/stars.png) repeat top center;
+    z-index: 0;
+}
+
+.twinkling {
+    background: transparent url(../images/twinkling.png) repeat top center;
+    z-index: 1;
+    animation: move-twink-back 200s linear infinite;
+}
+
+
+
+
+
+
+@keyframes twinkle_one {
+    0% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes twinkle_two {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes twinkle_three {
+    0% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.galaxy {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 12px;
+    height: 6px;
+    margin: 0 auto;
+}
+
+.star {
+    position: absolute;
+    background-color: white;
+}
+
+lamps
+
+.star-type1 {
+    width: 2px;
+    height: 2px;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 1px white;
+    animation: twinkle_one 3s ease-in-out infinite;
+}
+
+.star-type2 {
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 1px white;
+    animation: twinkle_two 12s ease-in-out infinite;
+}
+
+.star-type3 {
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 0 white;
+    animation: twinkle_three 7s ease-in-out infinite;
+}
+
+
+vert-move1
+
+img.vert-move {
+
+    animation: mover 1s infinite alternate;
+}
+
+img.vert-move {
+
+    animation: mover 1s infinite alternate;
+    position: relative;
+    top: -101px;
+}
+
+img.vert-move1 {
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+    position: relative;
+    top: -41px;
+}
+
+img.vert-move1 {
+
+    animation: mover 2s infinite alternate;
+}
+
+img.vert-move3 {
+    animation: mover 1.5s infinite alternate;
+}
+
+img.vert-move3 {
+    animation: mover 1.5s infinite alternate;
+    top: -140px;
+    position: relative;
+}
+
+img.vert-move2 {
+    -webkit-animation: mover 1.8s infinite alternate;
+    animation: mover 1.8s infinite alternate;
+}
+
+img.vert-move2 {
+    -webkit-animation: mover 1.8s infinite alternate;
+    animation: mover 1.8s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.lamps-3 {
+    position: absolute;
+    bottom: 0px;
+    z-index: 99;
+}
+
+.lamps-sec {
+    position: absolute;
+    left: 0;
+    z-index: 9999999;
+}
+
+.lamps-2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -205px;
+}
+
+.ramdan-text {
+    position: absolute;
+    color: #fff;
+    width: 480px;
+    font-size: 19px;
+    text-align: center;
+    font-family: arial;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -269px;
+    top: 55%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ramdan-text p {
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
