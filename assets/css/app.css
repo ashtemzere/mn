@@ -1,0 +1,106 @@
+.white-back {
+    background-color: #fff!important;
+}
+
+.white-color {
+    color: #fff;
+}
+.downlod{
+        margin-top: -70px;width: 100%;height:30px;font-size: 1.25em;
+    }
+
+.cat-icons {.white-back {
+    background-color: #fff!important;
+}
+
+.white-color {
+    color: #fff;
+}
+    width: 36px;
+    height: 36px;
+    border-radius: 25%;
+}
+
+.app-icons {
+    width: 48px;
+    height: 48px;
+    border-radius: 25%;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.semibold {
+    font-weight: 600!important;
+}
+
+.gradient {
+background-size: 100%;
+background-size: cover;
+background-position: 50%;
+background-image: url(../img/gradient.png);
+}
+
+.welcome-block {
+    margin-top: -20px;
+    height: 120px; 
+    width: 100%; 
+    border-radius: 15px;
+}
+
+.clear-title {
+    opacity: 0.55; 
+    padding-top: 10px;
+}
+
+.shadow {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+
+    .clear-title {
+        color: #000; 
+    }
+
+    .white-back {
+        background-color: #000!important;
+        color: white!important;
+    }
+    
+    .white-color {
+        color: #000;
+    }
+
+    .links-list a:after, .list .item-inner:after, .simple-list li:after {
+        background-color: rgba(255, 255, 255, 0.15);;
+      }
+    
+    li {
+        background-color: #000;
+    }
+
+    .block-title, .title-large-text {
+        color: #fff!important;
+    }
+
+    .list .item-footer {
+        color: #fff!important;
+        opacity: 0.45!important;
+    }
+
+    .navbar-bg:after, .links-list a:before, .list .item-link .item-inner:before, .media-list .chevron-center .item-link .item-inner:before, .media-list .item-link .item-title-row:before, .media-list .item-link.chevron-center .item-inner:before, .media-list.chevron-center .item-link .item-inner:before, li.media-item .chevron-center .item-link .item-inner:before, li.media-item .item-link .item-title-row:before, li.media-item .item-link.chevron-center .item-inner:before, li.media-item.chevron-center .item-link .item-inner:before {
+        color: rgba(255, 255, 255, 0.3)!important;
+    }
+
+    .gradient {
+        background-size: 100%;
+        background-size: cover;
+        background-position: 50%;
+        background-image: url(../img/gradientDark.png);
+        }
+}
